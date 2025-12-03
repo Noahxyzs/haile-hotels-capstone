@@ -1,0 +1,167 @@
+Haile Hotels & Resorts – Reviews Analytics & Sentiment Classification
+
+A Solo Capstone Project by Noah Solomon
+
+📌 Project Overview
+
+This project analyzes online customer reviews of Haile Hotels & Resorts from multiple platforms including Booking.com, TripAdvisor, Expedia/Trip.com, and Facebook. The goal is to:
+
+Collect and clean real-world hotel review data
+
+Perform exploratory data analysis (EDA)
+
+Build sentiment classification models
+
+Identify key improvement areas using NLP topic modeling
+
+Develop an interactive dashboard (Dash / Streamlit)
+
+Present insights for the Ethiopian hospitality industry
+
+This project uses both manually collected data and public hotel review datasets from Kaggle to enhance model performance.
+
+🔍 Project Objectives
+1. Data Collection
+
+Scrape or manually collect reviews (rating, title, comment) for:
+
+Haile Addis Ababa Grand Resort
+
+Haile Adama Grand Resort
+
+Haile Arba Minch Grand Resort
+
+Haile Resort Hawassa
+
+Haile Ziway (Batu) Resort
+
+Haile Resort Gondar
+
+2. Sentiment Classification
+
+Label reviews as:
+
+👍 Positive
+
+😐 Neutral
+
+👎 Negative
+
+Train and evaluate ML models:
+
+Logistic Regression
+
+Naïve Bayes
+
+RandomForest
+
+(Optional) LSTM / XGBoost
+
+3. Topic Modeling
+
+Identify topics such as:
+
+Rooms
+
+Staff & Reception
+
+Food & Catering
+
+Spa & Sauna
+
+Price
+
+Shuttle Service
+
+Swimming Pool
+
+“Other”
+
+4. Dashboard
+
+Interactive dashboard showing:
+
+Rating distributions
+
+Sentiment statistics
+
+Topic insights
+
+Word clouds
+
+Predictions for new review text
+
+📁 Repository Structure
+Haile-Hotels-Reviews-Analytics/
+│
+├── datasets/
+│   ├── raw/               # Scraped or manually collected data
+│   ├── clean/             # Cleaned datasets
+│   ├── aggregated/        # Final merged dataset
+│   └── external/          # Kaggle dataset
+│
+├── models/
+│   ├── sentiment/         # Trained sentiment models (.pkl or .pt)
+│   └── topics/            # Topic modeling results
+│
+├── src/
+│   ├── scraping/          # Web scrapers (Booking, TripAdvisor, etc.)
+│   ├── preprocessing/     # Cleaning, labeling
+│   ├── eda/               # EDA code & plots
+│   ├── modeling/          # ML training scripts
+│   └── dashboard/         # Dash/Streamlit app
+│
+├── notebooks/             # Jupyter notebooks for experiments
+├── reports/               # Final report PDF + figures
+├── requirements.txt       
+└── README.md
+
+🚀 Technologies Used
+
+Python
+
+BeautifulSoup, Requests, Selenium
+
+Pandas, NumPy
+
+Scikit-learn
+
+NLTK / SpaCy
+
+BERTopic or LDA
+
+Plotly Dash / Streamlit
+
+Matplotlib / Seaborn
+
+GitHub for version control
+
+📊 Dashboard Features
+
+Hotel-level insights
+
+Aggregate sentiment distribution
+
+Topic analysis with heatmaps
+
+Word cloud visualization
+
+Real-time sentiment & topic prediction
+
+🧠 Machine Learning Models
+
+Evaluated using:
+
+Accuracy
+
+Precision
+
+Recall
+
+F1-score
+
+Confusion Matrix
+
+🙌 Author
+
+Noah Solomon
