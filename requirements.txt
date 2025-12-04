@@ -1,0 +1,17 @@
+pandas
+numpy
+beautifulsoup4
+requests
+selenium
+scikit-learn
+nltk
+spacy
+matplotlib
+seaborn
+plotly
+dash
+wordcloud
+bertopic
+umap-learn
+joblib
+
