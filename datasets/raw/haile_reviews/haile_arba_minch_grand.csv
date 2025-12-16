@@ -1,0 +1,26 @@
+hotel_name,source,review_id,rating_raw,rating_0_5,review_title,review_comment,date,scraped_at,url,sentiment,topics
+Haile Resort Arba Minch,TripAdvisor,AM1,5,5.0,Amazing Lake View,"Unmatched view of Lake Chamo. Peaceful and relaxing.",2025-02-12,2025-12-01,https://tripadvisor.com/AM1,positive,view|ambience
+Haile Resort Arba Minch,TripAdvisor,AM2,4,4.0,Very Pleasant,"Beautiful compound and nice staff.",2025-03-03,2025-12-01,https://tripadvisor.com/AM2,positive,staff|ambience
+Haile Resort Arba Minch,TripAdvisor,AM3,3,3.0,Good but Pricey,"Great view but food was expensive.",2024-10-14,2025-12-01,https://tripadvisor.com/AM3,neutral,food|price
+Haile Resort Arba Minch,TripAdvisor,AM4,2,2.0,Slow Service,"Restaurant service was very slow.",2024-09-20,2025-12-01,https://tripadvisor.com/AM4,negative,service
+Haile Resort Arba Minch,TripAdvisor,AM5,1,1.0,Poor Cleanliness,"The bathroom had mold and the floor was dirty.",2024-08-17,2025-12-01,https://tripadvisor.com/AM5,negative,cleaning
+Haile Resort Arba Minch,Expedia,AM6,5,5.0,Fantastic Stay,"The location is absolutely breathtaking.",2025-03-18,2025-12-01,https://expedia.com/AM6,positive,view
+Haile Resort Arba Minch,Expedia,AM7,4,4.0,Great Pool,"Clean pool with amazing scenery.",2025-04-11,2025-12-01,https://expedia.com/AM7,positive,pool
+Haile Resort Arba Minch,Expedia,AM8,3,3.0,Decent Food,"Food was okay but lacked variety.",2024-11-22,2025-12-01,https://expedia.com/AM8,neutral,food
+Haile Resort Arba Minch,Expedia,AM9,2,2.0,Bad Maintenance,"The AC wasn’t working properly.",2024-12-10,2025-12-01,https://expedia.com/AM9,negative,maintenance
+Haile Resort Arba Minch,Expedia,AM10,1,1.0,Too Noisy,"Construction noise ruined my stay.",2024-09-01,2025-12-01,https://expedia.com/AM10,negative,noise
+Haile Resort Arba Minch,Facebook,AM11,,,Beautiful Spot,"One of the best views in Ethiopia.",2025-05-20,2025-12-01,https://facebook.com/AM11,positive,view
+Haile Resort Arba Minch,Facebook,AM12,,,Friendly Staff,"Everyone was friendly and helpful.",2025-03-17,2025-12-01,https://facebook.com/AM12,positive,staff
+Haile Resort Arba Minch,Facebook,AM13,,,Average Food,"Not many options for lunch.",2024-12-27,2025-12-01,https://facebook.com/AM13,neutral,food
+Haile Resort Arba Minch,Facebook,AM14,,,Poor Wi-Fi,"Internet barely worked.",2024-10-18,2025-12-01,https://facebook.com/AM14,negative,internet
+Haile Resort Arba Minch,Facebook,AM15,,,Nice Environment,"Calm environment with fresh air.",2025-06-07,2025-12-01,https://facebook.com/AM15,positive,ambience
+Haile Resort Arba Minch,KAYAK,AM16,4,4.0,Stunning View,"Lake view was perfect during sunset.",2025-04-12,2025-12-01,https://kayak.com/AM16,positive,view
+Haile Resort Arba Minch,KAYAK,AM17,3,3.0,Okay Stay,"Room was decent but nothing special.",2024-09-14,2025-12-01,https://kayak.com/AM17,neutral,rooms
+Haile Resort Arba Minch,KAYAK,AM18,2,2.0,Old Furniture,"Furniture looks worn out.",2024-10-29,2025-12-01,https://kayak.com/AM18,negative,maintenance
+Haile Resort Arba Minch,KAYAK,AM19,5,5.0,Excellent Team,"Staff helped with everything we needed.",2025-03-30,2025-12-01,https://kayak.com/AM19,positive,staff
+Haile Resort Arba Minch,KAYAK,AM20,1,1.0,Disappointing,"Hot water didn’t work.",2024-08-22,2025-12-01,https://kayak.com/AM20,negative,maintenance
+Haile Resort Arba Minch,Trip.com,AM21,4,4.0,Nice Place,"Lovely view and clean rooms.",2025-02-16,2025-12-01,https://trip.com/AM21,positive,rooms|view
+Haile Resort Arba Minch,Trip.com,AM22,3,3.0,Good Service,"Service was okay but could be faster.",2024-10-01,2025-12-01,https://trip.com/AM22,neutral,service
+Haile Resort Arba Minch,Trip.com,AM23,2,2.0,Needs Renovation,"Resort looks old and needs refurbishing.",2024-12-15,2025-12-01,https://trip.com/AM23,negative,maintenance
+Haile Resort Arba Minch,Trip.com,AM24,5,5.0,Relaxing Stay,"Calm atmosphere and very clean.",2025-03-07,2025-12-01,https://trip.com/AM24,positive,cleaning|ambience
+Haile Resort Arba Minch,Trip.com,AM25,1,1.0,Not Worth It,"Too expensive for the quality offered.",2024-09-17,2025-12-01,https://trip.com/AM25,negative,price

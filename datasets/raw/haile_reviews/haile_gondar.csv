@@ -1,0 +1,27 @@
+hotel_name,source,review_id,rating_raw,rating_0_5,review_title,review_comment,date,scraped_at,url,sentiment,topics
+Haile Resort Gondar,TripAdvisor,GD1,5,5.0,Excellent Hotel,"Great rooms and historical view.",2025-02-27,2025-12-01,https://tripadvisor.com/GD1,positive,rooms|view
+Haile Resort Gondar,TripAdvisor,GD2,4,4.0,Good Staff,"Employees were helpful.",2025-03-19,2025-12-01,https://tripadvisor.com/GD2,positive,staff
+Haile Resort Gondar,TripAdvisor,GD3,3,3.0,Decent Stay,"Food was average.",2024-11-13,2025-12-01,https://tripadvisor.com/GD3,neutral,food
+Haile Resort Gondar,TripAdvisor,GD4,2,2.0,Room Was Hot,"AC did not work well.",2024-10-29,2025-12-01,https://tripadvisor.com/GD4,negative,maintenance
+Haile Resort Gondar,TripAdvisor,GD5,1,1.0,Bad Hygiene,"Room smelled bad and sheets were dirty.",2024-08-23,2025-12-01,https://tripadvisor.com/GD5,negative,cleaning
+Haile Resort Gondar,Expedia,GD6,5,5.0,Very Nice Stay,"Beautiful hotel and clean rooms.",2025-04-17,2025-12-01,https://expedia.com/GD6,positive,rooms
+Haile Resort Gondar,Expedia,GD7,4,4.0,Good Food,"Dinner buffet was great.",2025-05-04,2025-12-01,https://expedia.com/GD7,positive,food
+Haile Resort Gondar,Expedia,GD8,3,3.0,Average,"Everything was okay.",2024-12-26,2025-12-01,https://expedia.com/GD8,neutral,general
+Haile Resort Gondar,Expedia,GD9,2,2.0,Noisy,"Could hear loud music at night.",2024-09-15,2025-12-01,https://expedia.com/GD9,negative,noise
+Haile Resort Gondar,Expedia,GD10,1,1.0,Bad Experience,"Water not running properly.",2024-08-09,2025-12-01,https://expedia.com/GD10,negative,maintenance
+Haile Resort Gondar,Facebook,GD11,,,Nice Place,"Beautiful garden and design.",2025-06-21,2025-12-01,https://facebook.com/GD11,positive,ambience
+Haile Resort Gondar,Facebook,GD12,,,Friendly Team,"Staff were very professional.",2025-03-25,2025-12-01,https://facebook.com/GD12,positive,staff
+Haile Resort Gondar,Facebook,GD13,,,Food Is Okay,"Not bad but nothing new.",2024-12-17,2025-12-01,https://facebook.com/GD13,neutral,food
+Haile Resort Gondar,Facebook,GD14,,,Slow Wi-Fi,"Internet is extremely slow.",2024-10-04,2025-12-01,https://facebook.com/GD14,negative,internet
+Haile Resort Gondar,Facebook,GD15,,,Nice Environment,"Good for outdoor photos.",2025-05-08,2025-12-01,https://facebook.com/GD15,positive,ambience
+Haile Resort Gondar,KAYAK,GD16,4,4.0,Comfortable Stay,"Room was comfortable and clean.",2025-02-11,2025-12-01,https://kayak.com/GD16,positive,rooms
+Haile Resort Gondar,KAYAK,GD17,3,3.0,Okay Service,"Service was okay.",2024-09-27,2025-12-01,https://kayak.com/GD17,neutral,service
+Haile Resort Gondar,KAYAK,GD18,2,2.0,Old Furniture,"Needs renovation.",2024-11-11,2025-12-01,https://kayak.com/GD18,negative,maintenance
+Haile Resort Gondar,KAYAK,GD19,5,5.0,Wonderful Stay,"Loved the breakfast and view.",2025-03-01,2025-12-01,https://kayak.com/GD19,positive,food|view
+Haile Resort Gondar,KAYAK,GD20,1,1.0,Disappointing,"Hot water didn't work.",2024-08-05,2025-12-01,https://kayak.com/GD20,negative,maintenance
+Haile Resort Gondar,Trip.com,GD21,4,4.0,Very Good,"Nice environment and rooms.",2025-03-05,2025-12-01,https://trip.com/GD21,positive,ambience|rooms
+Haile Resort Gondar,Trip.com,GD22,3,3.0,Good Enough,"Food was fine.",2024-10-02,2025-12-01,https://trip.com/GD22,neutral,food
+Haile Resort Gondar,Trip.com,GD23,2,2.0,Not Clean,"Bathroom was not properly cleaned.",2024-12-09,2025-12-01,https://trip.com/GD23,negative,cleaning
+Haile Resort Gondar,Trip.com,GD24,5,5.0,Nice Resort,"Great place to relax.",2025-02-16,2025-12-01,https://trip.com/GD24,positive,ambience
+Haile Resort Gondar,Trip.com,GD25,1,1.0,Not Worth It,"Price too high for the quality.",2024-09-14,2025-12-01,https://trip.com/GD25,negative,price
+

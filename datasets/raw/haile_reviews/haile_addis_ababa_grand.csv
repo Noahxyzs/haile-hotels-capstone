@@ -1,0 +1,27 @@
+hotel_name,source,review_id,rating_raw,rating_0_5,review_title,review_comment,date,scraped_at,url,sentiment,topics
+Haile Addis Ababa Grand Resort,TripAdvisor,AA1,5,5.0,Excellent Service,"Staff were extremely welcoming and professional. The check-in was quick and smooth.",2025-01-11,2025-12-01,https://tripadvisor.com/AA1,positive,staff|service
+Haile Addis Ababa Grand Resort,TripAdvisor,AA2,4,4.0,Comfortable Stay,"Rooms were clean and bed was very comfortable. Breakfast was decent.",2025-02-05,2025-12-01,https://tripadvisor.com/AA2,positive,rooms|food
+Haile Addis Ababa Grand Resort,TripAdvisor,AA3,3,3.0,Average Experience,"Good location but Wi-Fi was weak most of the time.",2024-11-20,2025-12-01,https://tripadvisor.com/AA3,neutral,internet|location
+Haile Addis Ababa Grand Resort,TripAdvisor,AA4,2,2.0,Noisy at Night,"Couldn't sleep due to noise from outside and from the hallway.",2024-12-03,2025-12-01,https://tripadvisor.com/AA4,negative,noise|rooms
+Haile Addis Ababa Grand Resort,TripAdvisor,AA5,1,1.0,Poor Cleanliness,"Bathroom was not cleaned properly and there was hair on the floor.",2024-09-14,2025-12-01,https://tripadvisor.com/AA5,negative,cleaning|rooms
+Haile Addis Ababa Grand Resort,Expedia,AA6,5,5.0,Amazing Food,"The restaurant served the best national dishes—fresh and delicious!",2025-03-14,2025-12-01,https://expedia.com/AA6,positive,food
+Haile Addis Ababa Grand Resort,Expedia,AA7,4,4.0,Good Value,"The room was spacious and the price was fair. Would recommend.",2025-02-24,2025-12-01,https://expedia.com/AA7,positive,price|rooms
+Haile Addis Ababa Grand Resort,Expedia,AA8,3,3.0,Satisfactory Stay,"Facilities were fine but the spa was fully booked every day.",2024-11-10,2025-12-01,https://expedia.com/AA8,neutral,spa|service
+Haile Addis Ababa Grand Resort,Expedia,AA9,2,2.0,Slow Service,"Service at the restaurant was very slow. Waited 40 minutes for food.",2025-01-03,2025-12-01,https://expedia.com/AA9,negative,service|food
+Haile Addis Ababa Grand Resort,Expedia,AA10,1,1.0,Unpleasant Experience,"The room had a strong odor and AC was not working.",2024-08-07,2025-12-01,https://expedia.com/AA10,negative,rooms|maintenance
+Haile Addis Ababa Grand Resort,Facebook,AA11,,,Friendly Staff,"Staff treated us very well and helped arrange transportation.",2025-03-01,2025-12-01,https://facebook.com/AA11,positive,staff
+Haile Addis Ababa Grand Resort,Facebook,AA12,,,Good Rooms,"Rooms were clean and tidy. Enjoyed my stay.",2025-04-15,2025-12-01,https://facebook.com/AA12,positive,rooms
+Haile Addis Ababa Grand Resort,Facebook,AA13,,,Weak Wi-Fi,"Internet connection needs improvement. Kept disconnecting.",2025-02-22,2025-12-01,https://facebook.com/AA13,negative,internet
+Haile Addis Ababa Grand Resort,Facebook,AA14,,,Nice Ambience,"Lobby area is very elegant and relaxing.",2025-06-12,2025-12-01,https://facebook.com/AA14,positive,ambience
+Haile Addis Ababa Grand Resort,Facebook,AA15,,,Average Food,"Food was okay but choices were limited.",2024-10-08,2025-12-01,https://facebook.com/AA15,neutral,food
+Haile Addis Ababa Grand Resort,KAYAK,AA16,4,4.0,Good Location,"Close to the airport and shopping malls.",2025-03-22,2025-12-01,https://kayak.com/AA16,positive,location
+Haile Addis Ababa Grand Resort,KAYAK,AA17,3,3.0,Reasonable Stay,"Room was fine but lacked some amenities.",2024-09-30,2025-12-01,https://kayak.com/AA17,neutral,rooms
+Haile Addis Ababa Grand Resort,KAYAK,AA18,2,2.0,Cold Shower,"Hot water was inconsistent. Shower was cold in the morning.",2024-12-13,2025-12-01,https://kayak.com/AA18,negative,maintenance
+Haile Addis Ababa Grand Resort,KAYAK,AA19,5,5.0,Exceptional Staff,"Best customer service I have experienced in Addis.",2025-05-01,2025-12-01,https://kayak.com/AA19,positive,staff
+Haile Addis Ababa Grand Resort,KAYAK,AA20,1,1.0,Very Poor,"Room smelled damp and window couldn’t open.",2024-08-14,2025-12-01,https://kayak.com/AA20,negative,rooms
+Haile Addis Ababa Grand Resort,Trip.com,AA21,4,4.0,Good Breakfast,"Buffet had many options. Loved the pastries.",2025-04-09,2025-12-01,https://trip.com/AA21,positive,food
+Haile Addis Ababa Grand Resort,Trip.com,AA22,3,3.0,It Was Okay,"Friendly staff but slow room service.",2024-12-28,2025-12-01,https://trip.com/AA22,neutral,service
+Haile Addis Ababa Grand Resort,Trip.com,AA23,2,2.0,Needs Renovation,"Furniture looks old and worn out.",2025-01-19,2025-12-01,https://trip.com/AA23,negative,maintenance
+Haile Addis Ababa Grand Resort,Trip.com,AA24,5,5.0,Wonderful Stay,"Everything was clean, warm, and welcoming.",2025-03-08,2025-12-01,https://trip.com/AA24,positive,rooms|staff
+Haile Addis Ababa Grand Resort,Trip.com,AA25,1,1.0,Bad Experience,"AC wasn’t working and the room was noisy.",2024-09-05,2025-12-01,https://trip.com/AA25,negative,maintenance|noise
+

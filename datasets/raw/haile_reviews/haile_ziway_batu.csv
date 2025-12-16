@@ -1,0 +1,27 @@
+hotel_name,source,review_id,rating_raw,rating_0_5,review_title,review_comment,date,scraped_at,url,sentiment,topics
+Haile Resort Ziway,Batu,ZW1,5,5.0,Great Weekend Spot,"Amazing environment and quiet location.",2025-03-05,2025-12-01,https://tripadvisor.com/ZW1,positive,ambience
+Haile Resort Ziway,Batu,ZW2,4,4.0,Good Rooms,"Rooms are spacious and clean.",2025-02-14,2025-12-01,https://tripadvisor.com/ZW2,positive,rooms|cleaning
+Haile Resort Ziway,Batu,ZW3,3,3.0,Decent Stay,"Everything was okay but nothing special.",2024-11-09,2025-12-01,https://tripadvisor.com/ZW3,neutral,general
+Haile Resort Ziway,Batu,ZW4,2,2.0,Slow Check-In,"Reception took a long time.",2024-10-18,2025-12-01,https://tripadvisor.com/ZW4,negative,reception
+Haile Resort Ziway,Batu,ZW5,1,1.0,Dirty Bathroom,"Bathroom wasn’t cleaned properly.",2024-08-11,2025-12-01,https://tripadvisor.com/ZW5,negative,cleaning
+Haile Resort Ziway,Batu,ZW6,5,5.0,Very Relaxing,"Beautiful lake view and quiet place.",2025-04-21,2025-12-01,https://expedia.com/ZW6,positive,view
+Haile Resort Ziway,Batu,ZW7,4,4.0,Good Food,"Breakfast was fresh and tasty.",2025-05-03,2025-12-01,https://expedia.com/ZW7,positive,food
+Haile Resort Ziway,Batu,ZW8,3,3.0,Average,"Good rooms but bad Wi-Fi.",2024-11-28,2025-12-01,https://expedia.com/ZW8,neutral,internet|rooms
+Haile Resort Ziway,Batu,ZW9,2,2.0,AC Issues,"AC was not cooling properly.",2024-12-19,2025-12-01,https://expedia.com/ZW9,negative,maintenance
+Haile Resort Ziway,Batu,ZW10,1,1.0,Poor Hygiene,"Sheets were not clean.",2024-09-17,2025-12-01,https://expedia.com/ZW10,negative,cleaning
+Haile Resort Ziway,Batu,ZW11,,,Nice Spot,"Nice spot to relax with family.",2025-06-10,2025-12-01,https://facebook.com/ZW11,positive,ambience|family
+Haile Resort Ziway,Batu,ZW12,,,Friendly Staff,"Staff were helpful and smiling.",2025-04-02,2025-12-01,https://facebook.com/ZW12,positive,staff
+Haile Resort Ziway,Batu,ZW13,,,Food Not Fresh,"Food quality needs to improve.",2024-12-14,2025-12-01,https://facebook.com/ZW13,neutral,food
+Haile Resort Ziway,Batu,ZW14,,,Weak Wi-Fi,"Internet connection was terrible.",2024-10-30,2025-12-01,https://facebook.com/ZW14,negative,internet
+Haile Resort Ziway,Batu,ZW15,,,Lovely Garden,"Very green and clean outdoor area.",2025-05-17,2025-12-01,https://facebook.com/ZW15,positive,ambience
+Haile Resort Ziway,Batu,ZW16,4,4.0,Good Experience,"Nice rooms and lake view.",2025-02-22,2025-12-01,https://kayak.com/ZW16,positive,rooms|view
+Haile Resort Ziway,Batu,ZW17,3,3.0,Okay Stay,"Food was late but tasted fine.",2024-10-20,2025-12-01,https://kayak.com/ZW17,neutral,service|food
+Haile Resort Ziway,Batu,ZW18,2,2.0,Outdated Furniture,"Needs renovation.",2024-09-28,2025-12-01,https://kayak.com/ZW18,negative,maintenance
+Haile Resort Ziway,Batu,ZW19,5,5.0,Perfect View,"Sunset by the lake was wonderful.",2025-03-16,2025-12-01,https://kayak.com/ZW19,positive,view
+Haile Resort Ziway,Batu,ZW20,1,1.0,Bad Smell,"Room smelled damp.",2024-08-04,2025-12-01,https://kayak.com/ZW20,negative,cleaning
+Haile Resort Ziway,Batu,ZW21,4,4.0,Comfortable Stay,"Rooms were comfortable and clean.",2025-03-12,2025-12-01,https://trip.com/ZW21,positive,rooms
+Haile Resort Ziway,Batu,ZW22,3,3.0,It Was Fine,"Nothing special but okay.",2024-10-05,2025-12-01,https://trip.com/ZW22,neutral,general
+Haile Resort Ziway,Batu,ZW23,2,2.0,No Hot Water,"Water heater was broken.",2024-12-07,2025-12-01,https://trip.com/ZW23,negative,maintenance
+Haile Resort Ziway,Batu,ZW24,5,5.0,Very Nice,"Perfect for a weekend break.",2025-02-09,2025-12-01,https://trip.com/ZW24,positive,ambience
+Haile Resort Ziway,Batu,ZW25,1,1.0,Not Good,"Staff were rude and unhelpful.",2024-09-01,2025-12-01,https://trip.com/ZW25,negative,staff
+

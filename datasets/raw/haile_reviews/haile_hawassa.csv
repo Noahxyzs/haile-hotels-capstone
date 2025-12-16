@@ -1,0 +1,27 @@
+hotel_name,source,review_id,rating_raw,rating_0_5,review_title,review_comment,date,scraped_at,url,sentiment,topics
+Haile Resort Hawassa,TripAdvisor,HW1,5,5.0,Perfect Family Spot,"Kids loved the playground and swimming pool.",2025-03-06,2025-12-01,https://tripadvisor.com/HW1,positive,family|pool
+Haile Resort Hawassa,TripAdvisor,HW2,4,4.0,Nice Lake View,"Beautiful lakeside breakfast.",2025-02-18,2025-12-01,https://tripadvisor.com/HW2,positive,view|food
+Haile Resort Hawassa,TripAdvisor,HW3,3,3.0,Good Stay,"Room was good but noisy outside.",2024-11-30,2025-12-01,https://tripadvisor.com/HW3,neutral,rooms|noise
+Haile Resort Hawassa,TripAdvisor,HW4,2,2.0,Slow Service,"Restaurant staff were slow to respond.",2024-10-15,2025-12-01,https://tripadvisor.com/HW4,negative,service
+Haile Resort Hawassa,TripAdvisor,HW5,1,1.0,Dirty Pool,"Pool was not clean and water looked cloudy.",2024-09-09,2025-12-01,https://tripadvisor.com/HW5,negative,pool|cleaning
+Haile Resort Hawassa,Expedia,HW6,5,5.0,Great Experience,"Loved the spa and lakeside view.",2025-04-10,2025-12-01,https://expedia.com/HW6,positive,spa|view
+Haile Resort Hawassa,Expedia,HW7,4,4.0,Good Service,"Staff were responsive and friendly.",2025-05-12,2025-12-01,https://expedia.com/HW7,positive,staff
+Haile Resort Hawassa,Expedia,HW8,3,3.0,Average Food,"Food needs improvement.",2024-11-03,2025-12-01,https://expedia.com/HW8,neutral,food
+Haile Resort Hawassa,Expedia,HW9,2,2.0,Bad AC,"Room was hot because AC didn’t work well.",2024-12-21,2025-12-01,https://expedia.com/HW9,negative,maintenance
+Haile Resort Hawassa,Expedia,HW10,1,1.0,Poor Hygiene,"Smell in the room was terrible.",2024-08-12,2025-12-01,https://expedia.com/HW10,negative,cleaning
+Haile Resort Hawassa,Facebook,HW11,,,Beautiful Area,"Peaceful and relaxing by the lake.",2025-06-18,2025-12-01,https://facebook.com/HW11,positive,ambience
+Haile Resort Hawassa,Facebook,HW12,,,Good Staff,"Very polite employees.",2025-03-14,2025-12-01,https://facebook.com/HW12,positive,staff
+Haile Resort Hawassa,Facebook,HW13,,,Food Not Good,"Needs more variety.",2024-12-08,2025-12-01,https://facebook.com/HW13,neutral,food
+Haile Resort Hawassa,Facebook,HW14,,,Poor Wi-Fi,"Internet was extremely slow.",2024-10-19,2025-12-01,https://facebook.com/HW14,negative,internet
+Haile Resort Hawassa,Facebook,HW15,,,Nice Environment,"Green compound and fresh air.",2025-05-04,2025-12-01,https://facebook.com/HW15,positive,ambience
+Haile Resort Hawassa,KAYAK,HW16,4,4.0,Comfortable Stay,"Clean rooms and comfy bed.",2025-04-07,2025-12-01,https://kayak.com/HW16,positive,rooms
+Haile Resort Hawassa,KAYAK,HW17,3,3.0,Okay Experience,"Service was normal, nothing special.",2024-09-23,2025-12-01,https://kayak.com/HW17,neutral,service
+Haile Resort Hawassa,KAYAK,HW18,2,2.0,Noisy,"Could hear music from nearby places.",2024-11-19,2025-12-01,https://kayak.com/HW18,negative,noise
+Haile Resort Hawassa,KAYAK,HW19,5,5.0,Excellent View,"Loved the sunsets by the lake.",2025-02-09,2025-12-01,https://kayak.com/HW19,positive,view
+Haile Resort Hawassa,KAYAK,HW20,1,1.0,Very Bad,"Hot water didn’t work and toilet smelled.",2024-08-26,2025-12-01,https://kayak.com/HW20,negative,maintenance|cleaning
+Haile Resort Hawassa,Trip.com,HW21,4,4.0,Great Place,"Beautiful compound and good rooms.",2025-03-15,2025-12-01,https://trip.com/HW21,positive,rooms|ambience
+Haile Resort Hawassa,Trip.com,HW22,3,3.0,It Was Okay,"Food was late but tasted fine.",2024-10-12,2025-12-01,https://trip.com/HW22,neutral,food|service
+Haile Resort Hawassa,Trip.com,HW23,2,2.0,Not Clean,"Room had dust and bedsheet wasn’t fresh.",2024-12-20,2025-12-01,https://trip.com/HW23,negative,cleaning
+Haile Resort Hawassa,Trip.com,HW24,5,5.0,Great Resort,"Perfect for a weekend getaway.",2025-02-24,2025-12-01,https://trip.com/HW24,positive,ambience
+Haile Resort Hawassa,Trip.com,HW25,1,1.0,Not Good,"Room was noisy and AC broken.",2024-09-03,2025-12-01,https://trip.com/HW25,negative,maintenance|noise
+

@@ -1,0 +1,27 @@
+hotel_name,source,review_id,rating_raw,rating_0_5,review_title,review_comment,date,scraped_at,url,sentiment,topics
+Haile Adama Grand Resort,TripAdvisor,AD1,5,5.0,Perfect Weekend,"Amazing pool and friendly staff. Loved the ambience.",2025-01-28,2025-12-01,https://tripadvisor.com/AD1,positive,pool|staff
+Haile Adama Grand Resort,TripAdvisor,AD2,4,4.0,Great Rooms,"Rooms were spacious and modern. Comfortable beds.",2025-02-14,2025-12-01,https://tripadvisor.com/AD2,positive,rooms
+Haile Adama Grand Resort,TripAdvisor,AD3,3,3.0,Okay Food,"Food selection was limited but tasted fine.",2024-10-11,2025-12-01,https://tripadvisor.com/AD3,neutral,food
+Haile Adama Grand Resort,TripAdvisor,AD4,2,2.0,Unclean Bathroom,"Bathroom had stains and wasn’t cleaned properly.",2024-09-19,2025-12-01,https://tripadvisor.com/AD4,negative,cleaning
+Haile Adama Grand Resort,TripAdvisor,AD5,1,1.0,Poor Service,"Reception staff seemed uninterested and unhelpful.",2024-08-04,2025-12-01,https://tripadvisor.com/AD5,negative,staff|service
+Haile Adama Grand Resort,Expedia,AD6,5,5.0,Excellent Stay,"My family enjoyed the pool and the playground.",2025-05-18,2025-12-01,https://expedia.com/AD6,positive,pool|family
+Haile Adama Grand Resort,Expedia,AD7,4,4.0,Good Food,"The breakfast buffet was great and well-organized.",2025-01-07,2025-12-01,https://expedia.com/AD7,positive,food
+Haile Adama Grand Resort,Expedia,AD8,3,3.0,Average Stay,"Room was fine but AC was noisy.",2024-11-15,2025-12-01,https://expedia.com/AD8,neutral,maintenance|rooms
+Haile Adama Grand Resort,Expedia,AD9,2,2.0,Slow Check-in,"Waited 25 minutes just to check in.",2025-03-02,2025-12-01,https://expedia.com/AD9,negative,service
+Haile Adama Grand Resort,Expedia,AD10,1,1.0,Bad Experience,"Room smelled moldy and pool was closed.",2024-09-01,2025-12-01,https://expedia.com/AD10,negative,rooms|pool
+Haile Adama Grand Resort,Facebook,AD11,,,Good Atmosphere,"Beautiful outdoor area and nice lighting.",2025-03-27,2025-12-01,https://facebook.com/AD11,positive,ambience
+Haile Adama Grand Resort,Facebook,AD12,,,Friendly Staff,"Team was kind and welcoming.",2025-02-10,2025-12-01,https://facebook.com/AD12,positive,staff
+Haile Adama Grand Resort,Facebook,AD13,,,Food Needs Improvement,"Food was not fresh and lacked flavor.",2024-12-22,2025-12-01,https://facebook.com/AD13,negative,food
+Haile Adama Grand Resort,Facebook,AD14,,,Nice Pool,"Kids enjoyed the pool. Clean and safe.",2025-06-05,2025-12-01,https://facebook.com/AD14,positive,pool
+Haile Adama Grand Resort,Facebook,AD15,,,Slow Wi-Fi,"Internet was weak during the evening.",2024-11-12,2025-12-01,https://facebook.com/AD15,negative,internet
+Haile Adama Grand Resort,KAYAK,AD16,4,4.0,Great Value,"Affordable price for the quality.",2025-05-14,2025-12-01,https://kayak.com/AD16,positive,price
+Haile Adama Grand Resort,KAYAK,AD17,3,3.0,It Was Fine,"Nothing special; room was okay.",2024-08-25,2025-12-01,https://kayak.com/AD17,neutral,rooms
+Haile Adama Grand Resort,KAYAK,AD18,2,2.0,Dirty Towels,"Found stains on towels. Not acceptable.",2024-10-01,2025-12-01,https://kayak.com/AD18,negative,cleaning
+Haile Adama Grand Resort,KAYAK,AD19,5,5.0,Excellent Staff,"Very helpful and respectful employees.",2025-04-16,2025-12-01,https://kayak.com/AD19,positive,staff
+Haile Adama Grand Resort,KAYAK,AD20,1,1.0,Disappointing,"No hot water and noisy AC.",2024-08-09,2025-12-01,https://kayak.com/AD20,negative,maintenance
+Haile Adama Grand Resort,Trip.com,AD21,4,4.0,Good Resort,"Nice views and clean compound.",2025-02-21,2025-12-01,https://trip.com/AD21,positive,ambience
+Haile Adama Grand Resort,Trip.com,AD22,3,3.0,Average Experience,"Staff was good but food took too long.",2024-10-02,2025-12-01,https://trip.com/AD22,neutral,service
+Haile Adama Grand Resort,Trip.com,AD23,2,2.0,Needs Renovation,"Furniture looks old and carpets need deep cleaning.",2024-12-29,2025-12-01,https://trip.com/AD23,negative,maintenance
+Haile Adama Grand Resort,Trip.com,AD24,5,5.0,Lovely Stay,"Everything was comfortable and relaxing.",2025-03-13,2025-12-01,https://trip.com/AD24,positive,rooms|staff
+Haile Adama Grand Resort,Trip.com,AD25,1,1.0,Bad Service,"Reception ignored my requests multiple times.",2024-11-14,2025-12-01,https://trip.com/AD25,negative,staff|service
+
