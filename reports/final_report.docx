@@ -1,0 +1,174 @@
+Sentiment and Topic Analysis of Online Reviews for Haile Hotels and Resorts
+
+Author: Noah Solomon Tesfaye
+Program: Data Analytics and Visualization
+Institution: Addis Ababa University
+Year: 2025
+
+Abstract
+
+Online customer reviews play a critical role in shaping decision-making in the hospitality industry. However, Ethiopian hotels rarely utilize systematic data-driven approaches to analyze customer feedback at scale. This project presents a comprehensive sentiment analysis and topic modeling framework applied to online reviews of Haile Hotels and Resorts, one of Ethiopia’s leading hospitality brands. Reviews were collected from multiple online platforms and supplemented with a public hotel review dataset to enhance model training. After data cleaning and preprocessing, sentiment classification models were developed and evaluated using multiple machine learning algorithms. Topic modeling techniques were applied to identify key service areas discussed by customers. Finally, an interactive dashboard was developed to visualize insights related to ratings, sentiment distribution, and improvement areas. The results demonstrate how natural language processing and machine learning can support evidence-based decision-making in the Ethiopian hospitality sector.
+
+Keywords: Sentiment Analysis, Topic Modeling, Hotel Reviews, Machine Learning, NLP, Dashboard Analytics
+
+1. Introduction
+
+The hospitality industry heavily depends on customer satisfaction and service quality. With the rise of online booking platforms and social media, customers increasingly express their experiences through online reviews. These reviews contain valuable insights regarding hotel services, facilities, and overall customer satisfaction.
+
+In Ethiopia, although the hotel industry is rapidly growing, systematic analysis of online customer feedback using data analytics and machine learning remains limited. Most hotels rely on manual feedback or simple rating averages, which fail to capture deeper customer sentiments and service-specific concerns.
+
+This project aims to bridge this gap by applying natural language processing (NLP) and machine learning techniques to analyze online reviews of Haile Hotels and Resorts, providing actionable insights for service improvement.
+
+2. Statement of the Problem
+
+Despite the availability of large volumes of online customer reviews, Ethiopian hotels rarely use automated analytical tools to extract meaningful insights from this data. Challenges include:
+
+Lack of structured sentiment analysis of customer feedback
+
+Absence of topic-level analysis identifying specific service issues
+
+Limited use of dashboards for decision support
+
+Minimal adoption of machine learning in the hospitality sector
+
+As a result, management decisions are often based on intuition rather than data-driven evidence. This project addresses these challenges by developing a complete analytics pipeline that transforms unstructured text reviews into actionable insights.
+
+3. Objectives
+3.1 General Objective
+
+To develop a machine learning-based system that analyzes customer reviews of Haile Hotels and Resorts to extract sentiment, identify service-related topics, and visualize insights through an interactive dashboard.
+
+3.2 Specific Objectives
+
+Collect and prepare online hotel review datasets
+
+Perform data cleaning and text preprocessing
+
+Conduct exploratory data analysis (EDA)
+
+Develop and evaluate sentiment classification models
+
+Identify key service topics using topic modeling
+
+Build an interactive dashboard for insight visualization
+
+4. Related Works
+
+Several studies have applied sentiment analysis to hotel reviews in international contexts. Researchers have used machine learning models such as Naïve Bayes, Support Vector Machines, and deep learning architectures to classify customer sentiments. Topic modeling techniques like Latent Dirichlet Allocation (LDA) have been widely used to identify service dimensions such as cleanliness, staff behavior, and food quality.
+
+However, limited research exists focusing on African or Ethiopian hospitality data. This project contributes to the literature by applying established NLP techniques to an Ethiopian hotel group, demonstrating their applicability in a local context.
+
+5. Methodology
+5.1 Data Collection
+
+Customer reviews were obtained from multiple online platforms including booking-related websites and social media. To improve model generalization, a public hotel review dataset from Kaggle was also incorporated. Reviews included rating values, textual comments, and metadata such as source and hotel name.
+
+5.2 Data Cleaning and Preprocessing
+
+Data cleaning involved:
+
+Handling missing ratings and review text
+
+Normalizing rating scales
+
+Removing duplicates
+
+Text preprocessing (lowercasing, stopword removal, lemmatization)
+
+Cleaned text was stored in a dedicated column for NLP processing.
+
+5.3 Exploratory Data Analysis
+
+EDA was performed to understand:
+
+Rating distributions
+
+Sentiment proportions
+
+Frequently discussed service aspects
+
+Differences across hotels
+
+Visualizations were generated using Plotly and Matplotlib.
+
+6. Experimental Description
+6.1 Sentiment Analysis
+
+Sentiment labels (positive, neutral, negative) were assigned based on rating thresholds and validated through text patterns. The dataset was split into training (80%) and testing (20%) sets.
+
+The following classifiers were trained and evaluated:
+
+Logistic Regression
+
+Multinomial Naïve Bayes
+
+Random Forest
+
+TF-IDF vectorization was used for feature extraction.
+
+6.2 Topic Modeling
+
+Latent Dirichlet Allocation (LDA) was applied to identify dominant topics discussed in reviews. Topics represented service areas such as rooms, food, staff behavior, cleanliness, and pricing. Each review was assigned a dominant topic label.
+
+6.3 Evaluation Metrics
+
+Model performance was evaluated using:
+
+Accuracy
+
+Precision
+
+Recall
+
+F1-score
+
+Confusion matrix
+
+7. Results and Discussion
+
+The sentiment analysis models achieved satisfactory classification performance, with Logistic Regression outperforming other models in terms of overall accuracy and stability. Positive reviews dominated the dataset, indicating generally high customer satisfaction, while negative reviews highlighted specific service deficiencies.
+
+Topic modeling revealed that the most discussed service areas included room quality, staff behavior, food services, and cleanliness. Negative sentiments were strongly associated with maintenance, internet connectivity, and service delays.
+
+TF-IDF-based term importance analysis provided a quantitative alternative to word clouds, highlighting discriminative terms contributing to each sentiment category.
+
+8. Dashboard Development
+
+An interactive dashboard was developed using Streamlit to visualize:
+
+Rating distributions
+
+Sentiment breakdowns
+
+Topic frequencies
+
+Filtered review samples
+
+Sentiment prediction for new reviews
+
+The dashboard enables hotel management and stakeholders to explore insights dynamically and supports data-driven decision-making.
+
+9. Conclusion and Recommendations
+
+This project demonstrates the effectiveness of machine learning and NLP techniques in analyzing hotel customer reviews within the Ethiopian context. The developed system successfully extracts sentiment, identifies service-related topics, and presents insights through an interactive dashboard.
+
+Recommendations
+
+Haile Hotels should integrate automated review analytics into their decision-making processes
+
+Management should prioritize improvements in frequently criticized service areas
+
+Future work may include real-time review analysis and deep learning-based sentiment models
+
+References
+
+Pang, B., & Lee, L. (2008). Opinion Mining and Sentiment Analysis.
+
+Blei, D. M., Ng, A. Y., & Jordan, M. I. (2003). Latent Dirichlet Allocation.
+
+Kaggle Hotel Reviews Dataset.
+
+scikit-learn Documentation.
+
+Plotly and Streamlit Documentation.
+
