@@ -1,167 +1,160 @@
-Haile Hotels & Resorts – Reviews Analytics & Sentiment Classification
+# 🏨 Haile Hotels & Resorts – Review Analytics and Sentiment Analysis
 
-A Solo Capstone Project by Noah Solomon
+## 📌 Project Overview
+This project presents a comprehensive **sentiment analysis and topic modeling system** for online customer reviews of **Haile Hotels and Resorts**, one of Ethiopia’s leading hospitality brands. Using **Natural Language Processing (NLP)** and **Machine Learning (ML)** techniques, the project extracts actionable insights from unstructured review data and visualizes them through an **interactive dashboard**.
 
-📌 Project Overview
+The primary goal is to demonstrate how data-driven review analytics can support **service quality improvement**, **customer satisfaction analysis**, and **evidence-based decision-making** in the Ethiopian hospitality industry.
 
-This project analyzes online customer reviews of Haile Hotels & Resorts from multiple platforms including Booking.com, TripAdvisor, Expedia/Trip.com, and Facebook. The goal is to:
+---
 
-Collect and clean real-world hotel review data
+## 🎯 Objectives
+- Collect and preprocess online hotel reviews from multiple platforms
+- Perform exploratory data analysis (EDA) on ratings and textual reviews
+- Develop sentiment classification models using machine learning
+- Identify key service areas through topic modeling
+- Build a professional, interactive analytics dashboard
+- Provide interpretable insights for hotel management
 
-Perform exploratory data analysis (EDA)
+---
 
-Build sentiment classification models
+## 🗂️ Dataset Description
 
-Identify key improvement areas using NLP topic modeling
+### 📥 Data Sources
+- Online hotel review platforms (e.g., booking-related websites, social platforms)
+- Public hotel review dataset from Kaggle (used for model enhancement)
 
-Develop an interactive dashboard (Dash / Streamlit)
+### 📊 Dataset Structure
+The final processed dataset includes:
+- `hotel_name` – Name of the hotel or resort  
+- `source` – Review platform  
+- `rating_raw` – Original rating value  
+- `rating_0_5` – Normalized rating (0–5 scale)  
+- `review_comment` – Original customer review  
+- `clean_full_text` – Preprocessed review text  
+- `sentiment` – Classified sentiment (positive, neutral, negative)  
+- `lda_topic` – Topic label from LDA topic modeling  
 
-Present insights for the Ethiopian hospitality industry
+---
 
-This project uses both manually collected data and public hotel review datasets from Kaggle to enhance model performance.
+## 🧪 Methodology
 
-🔍 Project Objectives
-1. Data Collection
+### 1️⃣ Data Cleaning & Preprocessing
+- Missing value handling
+- Rating normalization
+- Text cleaning (lowercasing, stopword removal, lemmatization)
+- Feature preparation for NLP models
 
-Scrape or manually collect reviews (rating, title, comment) for:
+### 2️⃣ Exploratory Data Analysis (EDA)
+- Rating distributions
+- Sentiment proportions
+- Topic frequency analysis
+- TF-IDF term importance analysis (used instead of word clouds for academic rigor)
 
-Haile Addis Ababa Grand Resort
+### 3️⃣ Sentiment Analysis
+- TF-IDF vectorization
+- Machine learning classifiers:
+  - Logistic Regression
+  - Naïve Bayes
+  - Random Forest
+- Model evaluation using accuracy, precision, recall, and F1-score
 
-Haile Adama Grand Resort
+### 4️⃣ Topic Modeling
+- Latent Dirichlet Allocation (LDA)
+- Identification of dominant service-related topics
+- Assignment of topic labels to reviews
 
-Haile Arba Minch Grand Resort
+---
 
-Haile Resort Hawassa
+## 📊 Dashboard
+An interactive dashboard was developed using **Streamlit** to visualize:
+- Key performance indicators (KPIs)
+- Rating distributions
+- Sentiment breakdowns
+- Topic modeling results
+- TF-IDF important terms by sentiment
+- Review explorer
+- Real-time sentiment prediction
 
-Haile Ziway (Batu) Resort
+### 📷 Dashboard Preview
+Screenshots of the dashboard are available in:
+reports/screenshots/
 
-Haile Resort Gondar
+---
 
-2. Sentiment Classification
+## 🛠️ Technologies Used
+- **Python**
+- **Pandas, NumPy**
+- **scikit-learn**
+- **NLTK, spaCy**
+- **Plotly, Matplotlib**
+- **Streamlit**
+- **Git & GitHub**
 
-Label reviews as:
+---
 
-👍 Positive
-
-😐 Neutral
-
-👎 Negative
-
-Train and evaluate ML models:
-
-Logistic Regression
-
-Naïve Bayes
-
-RandomForest
-
-(Optional) LSTM / XGBoost
-
-3. Topic Modeling
-
-Identify topics such as:
-
-Rooms
-
-Staff & Reception
-
-Food & Catering
-
-Spa & Sauna
-
-Price
-
-Shuttle Service
-
-Swimming Pool
-
-“Other”
-
-4. Dashboard
-
-Interactive dashboard showing:
-
-Rating distributions
-
-Sentiment statistics
-
-Topic insights
-
-Word clouds
-
-Predictions for new review text
-
-📁 Repository Structure
-Haile-Hotels-Capstone/
+## 📁 Project Structure
+haile-hotels-capstone/
 │
 ├── datasets/
-│   ├── raw/               # Scraped or manually collected data
-│   ├── clean/             # Cleaned datasets
-│   ├── aggregated/        # Final merged dataset
-│   └── external/          # Kaggle dataset
+│ ├── raw/
+│ └── clean/
 │
 ├── models/
-│   ├── sentiment/         # Trained sentiment models (.pkl or .pt)
-│   └── topics/            # Topic modeling results
+│ ├── sentiment/
+│ └── topics/
 │
 ├── src/
-│   ├── scraping/          # Web scrapers (Booking, TripAdvisor, etc.)
-│   ├── preprocessing/     # Cleaning, labeling
-│   ├── eda/               # EDA code & plots
-│   ├── modeling/          # ML training scripts
-│   └── dashboard/         # Dash/Streamlit app
+│ ├── data/
+│ ├── eda/
+│ ├── modeling/
+│ └── dashboard/
 │
-├── notebooks/             # Jupyter notebooks for experiments
-├── reports/               # Final report PDF + figures
-├── requirements.txt       
-└── README.md
+├── reports/
+│ ├── figures/
+│ └── screenshots/
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
 
-🚀 Technologies Used
 
-Python
+---
 
-BeautifulSoup, Requests, Selenium
+## ▶️ How to Run the Project
 
-Pandas, NumPy
+### 1️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
 
-Scikit-learn
+2️⃣ Run data preprocessing
+python src/data/clean_reviews.py
 
-NLTK / SpaCy
+3️⃣ Train models
+python src/modeling/sentiment_pipeline.py
+python src/modeling/topic_modeling.py
 
-BERTopic or LDA
+4️⃣ Launch the dashboard
+streamlit run src/dashboard/streamlit_app.py
 
-Plotly Dash / Streamlit
+📈 Key Findings
 
-Matplotlib / Seaborn
+Majority of reviews express positive sentiment, indicating strong customer satisfaction
 
-GitHub for version control
+Negative sentiments are primarily associated with specific service areas such as maintenance and connectivity
 
-📊 Dashboard Features
+Topic modeling reveals recurring discussion themes related to rooms, staff behavior, food services, and cleanliness
 
-Hotel-level insights
+TF-IDF analysis highlights discriminative terms contributing to sentiment classification
 
-Aggregate sentiment distribution
+📌 Conclusion
 
-Topic analysis with heatmaps
+This project demonstrates the effectiveness of NLP and machine learning techniques in extracting valuable insights from hotel customer reviews. The developed system provides a scalable framework for review analytics that can be adopted by Ethiopian hotels to improve service quality and customer experience.
 
-Word cloud visualization
+👤 Author
 
-Real-time sentiment & topic prediction
+Noah Solomon Tesfaye
+2025
 
-🧠 Machine Learning Models
+📜 License
 
-Evaluated using:
-
-Accuracy
-
-Precision
-
-Recall
-
-F1-score
-
-Confusion Matrix
-
-🙌 Author
-
-Noah Solomon
+This project is intended for academic and educational purposes.
